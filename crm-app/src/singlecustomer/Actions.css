@@ -1,0 +1,104 @@
+body {
+    background-color: #213b50;    
+}
+
+.Action {
+    /* margin-top: 50px;
+    text-align: center;
+    padding: 0 30%; */
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Action h1 {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: lightgrey;
+}
+
+
+.Action fieldset {
+    text-align: center;
+    border-width: 0;
+    /* width: 50%; */
+}
+
+.Action label {
+    /* display: block; */
+    font-weight: 400;
+    font-size: 1.25em;
+    color: lightgrey;
+    /* margin-bottom: 0px; */
+    /* padding-bottom: 5px; */
+}
+
+
+.Action input {
+    background-color: #2b4a64;
+    color: lightgrey;
+    line-height: 1.5em;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    outline: 0;
+    border: 0;
+    padding: 5px;
+}
+
+.Action textarea {
+    background-color: #2b4a64;
+    color: lightgrey;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    padding: 5px;
+    outline: 0;
+    border: 0;
+}
+
+.Action select {
+    background-color: #2b4a64;
+    color: lightgrey;
+    line-height: 1.5em;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    outline: 0;
+    border: 0;
+    padding: 5px;
+}
+
+.Action span {
+    display: block;
+    color: red;
+    font-size: 18px;
+}
+
+.Action form button {
+    background-color: skyblue;;
+    color: lightgrey;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: 400;
+    font-size: 1.0em;
+} 
+
+.Action button:hover{
+    background-color: lightblue;
+    color: white;
+}

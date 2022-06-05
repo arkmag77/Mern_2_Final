@@ -1,0 +1,144 @@
+.CustomersList{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.CustomersList .PopUpWindow {
+    position:fixed;
+    width: 30%;
+    border-style: groove;
+    background-color: #213b50;  
+    /* background-color: lightskyblue; */
+    border-color: black;
+    right: 50%;    
+    top: 15%;                 
+    transform: translate(50%, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.CustomersList .PopUpWindow h1  {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: lightgrey;
+    text-align: center;
+}
+
+.CustomersList .PopUpWindow h3  {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: lightgrey;
+}
+
+.CustomersList .PopUpWindow fieldset {
+    text-align: right;
+    margin-right: 10px;
+    border-width: 0;
+}
+
+.CustomersList .PopUpWindow label {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: lightgrey;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.CustomersList .PopUpWindow input {
+    background-color: #2b4a64;
+    color: lightgrey;
+    line-height: 1.5em;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    outline: 0;
+    border: 0;
+    padding: 5px;
+}
+
+
+.CustomersList .PopUpWindow span {
+    display: block;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}
+
+.CustomersList .PopUpWindow .Buttons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CustomersList .PopUpWindow button {
+    background-color: skyblue;;
+    color: lightgrey;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+    /* font-size: 1.0em; */
+
+} 
+
+.CustomersList .PopUpWindow button:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+.CustomersTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.CustomersList .CustomersTable td{
+   border: 1px solid black;
+   padding: 10px 15px;
+   color: lightgrey;
+}
+
+.CustomersList .CustomersTable tr:nth-child(2n+1) {
+    background-color: #213b57;
+}
+
+.CustomersList .CustomersTable thead tr td {
+    background-color: lightslategray;
+    border: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.0em;
+    padding: 10px 15px;
+    color: black;
+}
+
+.CustomersList .CustomersTable tbody .link {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.CustomersList .CustomersTable tbody button {
+    background-color: skyblue;;
+    color: black;
+    width: auto;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    padding: 10px;
+    border: 0;
+    font-size: 1.0em;
+    border-radius: 2px;
+}
+
+
+
+

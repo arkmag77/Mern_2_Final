@@ -1,0 +1,9 @@
+.Customers h1 {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: lightgrey;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}

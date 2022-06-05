@@ -1,0 +1,79 @@
+body {
+    background-color: #213b50;    
+}
+
+.SignIn {
+    /* margin-top: 50px;
+    text-align: center;
+    padding: 0 30%; */
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.SignIn h1 {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: lightgrey;
+}
+
+
+.SignIn fieldset {
+    text-align: center;
+    border-width: 0;
+    /* width: 50%; */
+}
+
+.SignIn label {
+    /* display: block; */
+    font-weight: 400;
+    font-size: 1.25em;
+    color: lightgrey;
+    /* margin-bottom: 0px; */
+    /* padding-bottom: 5px; */
+}
+
+.SignIn input {
+    background-color: #2b4a64;
+    color: lightgrey;
+    line-height: 2em;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    outline: 0;
+    border: 0;
+    padding: 5px;
+}
+
+
+.SignIn span {
+    display: block;
+    color: red;
+    font-size: 18px;
+}
+
+.SignIn button {
+    background-color: skyblue;;
+    color: lightgrey;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: 400;
+    font-size: 1.0em;
+} 
+
+.SignIn button:hover{
+    background-color: lightblue;
+    color: white;
+}

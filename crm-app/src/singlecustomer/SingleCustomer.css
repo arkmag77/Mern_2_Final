@@ -1,0 +1,153 @@
+.SingleCustomer{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: lightgrey;
+}
+
+.SingleCustomer .PopUpWindow {
+    position:fixed;
+    width: 30%;
+    border-style: groove;
+    background-color: #213b50; 
+    border-color: black;
+    right: 50%;    
+    top: 20%;                 
+    transform: translate(50%, 0);
+    padding: 20px
+}
+
+.SingleCustomer  .PopUpWindow h3  {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: lightgrey;
+    text-align: center;
+}
+
+.SingleCustomer .PopUpWindow .Buttons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    border: 0;
+}
+
+.SingleCustomer .PopUpWindow button {
+    /* display: flex; */
+    /* flex-direction:row; */
+    background-color: skyblue;;
+    color: lightgrey;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+    /* font-size: 1.0em; */
+
+} 
+
+.SingleCustomer .Customer{
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.SingleCustomer .ActionsTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.SingleCustomer .ActionsTable td{
+   border: 1px solid black;
+   padding: 10px 15px;
+   /* color: lightgrey; */
+
+}
+
+.SingleCustomer .ActionsTable td .TdBtn {
+     
+    text-align: center;
+    /* color: lightgrey; */
+ 
+ }
+
+
+
+ .SingleCustomer .ActionsTable tr:nth-child(2n+1) {
+    background-color: #213b57;
+}
+
+.SingleCustomer .ActionsTable thead tr td {
+    background-color: lightslategray;
+    border: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.0em;
+    padding: 10px 15px;
+    color: black;
+}
+
+.SingleCustomer .ActionsTable tbody button {
+    background-color: skyblue;;
+    color: black;
+    width: auto;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    padding: 10px;
+    border: 0;
+    font-size: 1.0em;
+    border-radius: 2px;
+}
+
+.SingleCustomer .BtnAddAction {
+    background-color: skyblue;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: lightgrey;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+
+} 
+
+.SingleCustomer button .link {
+    text-decoration: none;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    color: lightgrey;
+}
+
+
+.SingleCustomer .DivBtnAddAction {
+    text-align: letf;
+    margin-top: 0;
+    margin-left: 50px;
+
+}
+
+.SingleCustomer .PopUpWindow button:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.SingleCustomer .BtnAddAction:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+
+
+
+
